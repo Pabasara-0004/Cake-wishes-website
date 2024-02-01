@@ -1,0 +1,82 @@
+*{ margin:0;
+padding:0; 
+}
+
+body{ background-color:#191919;
+font-family:sans-serif;}
+
+.menu-bar{
+text-align:center;
+}
+.menu-bar ul{ display:inline-flex;
+list-style:none;
+color:#fff;}
+
+.menu-bar ul li{ width:150px;
+margin:15px;
+padding:15px;
+}
+
+.menu-bar ul li a{ text-decoration:none;
+color:#fff;}
+
+.menu-bar ul li :hover{ 
+border-radius:5px
+padding 5px;
+color:#c90076;
+ }
+.sub-menu-1
+
+	{display:none;}
+	
+	.menu-bar ul li:hover .sub-menu-1
+	{display:block;
+position:absolute;
+
+margin-top:5px;
+margin-left:-15px;
+}
+
+.menu-bar ul li:hover .sub-menu-1 ul
+
+{ display:block;
+margin:10px;}
+
+	.menu-bar ul li:hover .sub-menu-1 ul li{ 
+width:150px;
+padding:10px;
+border-bottom :1px dotted #fff;
+background:transparent;
+border-radius:0;
+text-align:left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child{border-bottom:none;}
+.menu-bar ul li:hover .sub-menu-1 ul li a: hover{color:pink;}
+
+
+
+
+
+
+
+.hero{
+	  width:100%;
+	 display:flex;
+	 margin:25px;
+ align-items:center;
+ justify-content:center;}
+ 
+ 
+ form{ width:90%;
+ max-width:600px;
+ 
+ }
+ .group{margin-bottom:30px;}
+ 
+ .group,textarea{ width:100%;
+ padding:10px;
+ outline:0;
+ border:1px solid #fff;
+ color:fff;
+ background:transparent;
+ font-size:15px;}
